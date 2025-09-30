@@ -1,0 +1,22 @@
+# Ignore the Python virtual environment
+.venv/
+
+# Ignore compiled executables and programs
+*.exe
+*.dll
+
+# Ignore large data files
+data/
+sample.fastq
+sequences_to_cluster.fasta
+
+# Ignore VSEARCH output files
+*.uc
+centroids.fasta
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
