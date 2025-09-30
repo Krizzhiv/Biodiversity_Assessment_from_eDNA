@@ -65,8 +65,11 @@ This pipeline processes raw `.fastq` files and uses a series of data-driven step
 
 ### Prerequisites
 
-*   Python 3.8+
-*   VSEARCH (must be installed and available in your system's PATH)
+*   **Python 3.8+**
+*   **VSEARCH:** This pipeline depends on the VSEARCH executable.
+    1.  Download VSEARCH from the [official GitHub releases page](https://github.com/torognes/vsearch/releases).
+    2.  Choose the correct version for your operating system (e.g., `vsearch-....-win-x86_64.zip` for Windows).
+    3.  Unzip the file and place the `vsearch.exe` (or `vsearch` for Mac/Linux) executable (along with dlls) **in the root directory of this project.** The script is configured to look for it here.
 *   The Python libraries listed in `requirements.txt`.
 
 ### Installation
