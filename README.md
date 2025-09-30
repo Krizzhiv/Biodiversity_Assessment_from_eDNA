@@ -73,8 +73,8 @@ This pipeline processes raw `.fastq` files and uses a series of data-driven step
 
 1.  Clone the repository:
     ```bash
-    git clone https://github.com/YourUsername/YourRepoName.git
-    cd YourRepoName
+    git clone https://github.com/Krizzhiv/Biodiversity_Assessment_from_eDNA.git
+    cd Biodiversity_Assessment_from_eDNA
     ```
 
 2.  Install the required Python packages:
